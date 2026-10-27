@@ -1,0 +1,1 @@
+﻿using Core.Dtos;using Core.Dtos.Logs;using Core.Interfaces.Specification.SpecParams;namespace Core.Interfaces.IServices.UsersIServices{    public interface ISessionReschedualService    {        Task<PagedResult<GetSessionRescheduleRequessDto>> GetTraineeSessionRescheduleRequests(GetTraineeSessionRescheduleRequestsSpecParam specParam, int userId);    }}

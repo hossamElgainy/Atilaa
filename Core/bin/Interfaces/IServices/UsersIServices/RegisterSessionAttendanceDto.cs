@@ -1,0 +1,1 @@
+﻿namespace Core.Interfaces.IServices.UsersIServices{    public class RegisterSessionAttendanceDto    {        public int sessionId { get; set; }        public string QrCode { get; set; }    }}
